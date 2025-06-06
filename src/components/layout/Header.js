@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo/mutubi.png';
 import './Header.css';
 
@@ -13,9 +14,9 @@ const Header = () => {
     <header className="header">
       <div className="container header-container">
         <div className="logo-container">
-          <a href="/">
+          <Link to="/">
             <img src={logo} alt="Mutubi Corporation" className="logo" />
-          </a>
+          </Link>
         </div>
 
         <div className={`menu-toggle ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
@@ -27,19 +28,19 @@ const Header = () => {
         <nav className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
           <ul className="nav-list">
             <li className="nav-item">
-              <a href="/company" className="nav-link">会社情報</a>
+              <Link to="/company" className="nav-link">会社情報</Link>
             </li>
             <li className="nav-item">
-              <a href="/business" className="nav-link">事業内容</a>
+              <Link to="/business" className="nav-link">事業内容</Link>
             </li>
             <li className="nav-item">
-              <a href="/vision" className="nav-link">ビジョン</a>
+              <Link to="/vision" className="nav-link">ビジョン</Link>
             </li>
             <li className="nav-item">
-              <a href="/careers" className="nav-link">採用情報</a>
+              <Link to="/careers" className="nav-link">採用情報</Link>
             </li>
             <li className="nav-item contact-item">
-              <a href="/contact" className="nav-link contact-link">お問合わせ</a>
+              <Link to="/contact" className="nav-link contact-link">お問合わせ</Link>
             </li>
           </ul>
         </nav>
