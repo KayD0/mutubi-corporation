@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo/mutubi.png';
 import './Hero.css';
 
@@ -13,7 +14,7 @@ const Hero = () => {
           <div className="hero-text">
             <h1 className="hero-title">テクノロジーと<br />人の調和をむすぶ</h1>
             <p className="hero-subtitle">調和と信頼のテクノロジーパートナー</p>
-            <a href="/about" className="btn btn-primary hero-btn">詳しく見る</a>
+            <Link to="/business" className="btn btn-primary hero-btn">詳しく見る</Link>
           </div>
         </div>
       </div>
