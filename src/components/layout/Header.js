@@ -14,8 +14,9 @@ const Header = () => {
     <header className="header">
       <div className="container header-container">
         <div className="logo-container">
-          <Link to="/">
+          <Link to="/" className="logo-link">
             <img src={logo} alt="Mutubi Corporation" className="logo" />
+            <span className="company-name">株式会社むつび</span>
           </Link>
         </div>
 
