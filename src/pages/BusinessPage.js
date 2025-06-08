@@ -41,21 +41,6 @@ const BusinessPage = () => {
             </div>
           </section>
           
-          <section className="business-section">
-            <h2 className="section-title">3. "むつび"型ハイブリッドモデル（SES＋受託の融合）</h2>
-            <div className="business-content">
-              <p>
-                案件に応じてSESと受託を柔軟に組み合わせ、最適な開発体制を構築。<br />
-                「部分支援」から「全体請負」までスムーズにスケール可能です。
-              </p>
-              <p>
-                <strong>このモデルの強み：</strong><br />
-                - 初期はSES支援 → 仕様が固まり次第受託へ移行<br />
-                - スモールスタートで始められる柔軟性<br />
-                - 顧客との継続的関係を築きながら内製化支援も可能
-              </p>
-            </div>
-          </section>
         </div>
       </div>
     </Layout>
